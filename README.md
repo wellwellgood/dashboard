@@ -71,3 +71,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 # echo # React-DashBoard >> README.md
 git init
 echo # echo # React-DashBoard
+# dashboard" >> README.md
+echo # dashboard >> README.md;
+
+echo '# dashboard
