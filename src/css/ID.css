@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+}
+.img{
+    background-image: url(../image/back.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    margin: 10px 10px;
+}
+.IDform{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    width: 510px;
+    height: 510px;
+    /* background-color: chartreuse; */
+    /* border-radius: 10px; */
+    border: 1px solid #000;
+}
+.IDarea{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    width: 500px;
+    height: 500px;
+    /* background-color: cadetblue; */
+    border-radius: 10px;
+}
+
+.username{
+    width: 90%;
+    margin: 0 5%;
+}
+.username .name,
+.phonenumber .number,
+.verification .verifyCode{
+    width: 80%;
+    height: 50px;
+    margin: 2% 5%;
+    padding: 0 5%;
+    /* border-radius: 5px; */
+}
+.phonenumber,
+.verification{
+    width: 90%;
+    margin: 2% 5%;
+}
+.phonenumber button,
+.verification button{
+    position: absolute;
+    right: 18.7%;
+    margin-top: 2%;
+    height: 48px;
+    border-radius: 0px;
+    background-color: royalblue;
+    border: none;
+    cursor: pointer;
+    font-size: 12px;
+    color: #fff;
+    padding: 0 10px;
+    transition: 0.5s ease;
+    border: 1px solid #000;
+    border-left: none;
+}
+.phonenumber button:hover{
+    background-color: #000;
+    transition: 0.5s ease;
+}
+.findBtn{
+    width: 90%;
+    height: 50px;
+    margin-top: 10px;
+}
+.findBtn button{
+    width: 80%;
+    height: 50px;
+    margin: 0 5%;
+    padding: 0 5%;
+    border-radius: 5px;
+    background-color: royalblue;
+    color: #fff;
+    font-family: sans-serif;
+    transition: 0.5s ease;
+    border: 1px solid #000;
+    cursor: pointer;
+}
+.findBtn button:hover,
+.verification button:hover
+{
+    background-color: #000;
+    transition: 0.5s ease;
+}
+
+
+.result {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #f3f4f6;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .result span {
+    color: #3b82f6;
+    font-weight: bold;
+  }
+  
+  .goLogin {
+    margin-top: 10px;
+    padding: 10px 30px;
+    background-color: #3b82f6;
+    color: white;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+  }
+  

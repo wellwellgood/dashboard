@@ -1,0 +1,157 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+}
+.video-container{
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+}
+.video{
+  width: 100%;
+  height: 100%;
+}
+.logo{
+  background-image: url(../image/logo.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+}
+.App-header {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  overflow: hidden;
+}
+
+.login{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+  width: 400px;
+  /* background: #6e6e6e; */
+  min-height: auto;
+  color: #000;
+  backdrop-filter: blur(3px);
+  border-radius: 10px;
+  border: 3px solid #000;
+}
+.loginform{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: 500px;
+  border-radius: 10px;
+  /* background-color: #fff; */
+  /* background: rgba(255, 255, 255, 0.5); */
+  backdrop-filter: blur(15px);
+}
+.loginbox{
+  margin: 15px 0 0 0;
+}
+.text{
+  font-size: 42px;
+  border-bottom: 1px solid #000;
+  margin-top: 30px;
+}
+.id,.pw{
+  width: 90%;
+  padding:15px 15px;
+  margin: 5px 0;
+}
+.id:hover,
+.pw:hover{
+  box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.3);
+}
+.id::placeholder{
+  color: #fff;
+  padding: 3px;
+}
+.pw::placeholder{
+  color: #fff;
+  padding: 3px;
+}
+.id{
+  height: 30px;
+  border-radius: 10px;
+  background: rgba(83, 81, 75, 0.667);
+  color: #fff;
+}
+.pw{
+  height: 30px;
+  border-radius: 10px;
+  background: rgba(83, 81, 75, 0.667);
+  color: #fff;
+}
+.linkpage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #000;
+  border-radius: 10px;
+  padding: 10px;
+  width: 90%;
+  height: 50px;
+  color: #000;
+  letter-spacing: 5px;
+  text-decoration: none;
+  text-align: center;
+  margin: 10px 0;
+}
+.linkpage:hover{
+  background-color: #2e2e2e;
+  color: #fff;
+}
+.id:focus,
+.pw:focus{
+  background-color: #000000;
+}
+.findbox{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+  width: 90%;
+  margin: 10px;
+}
+.findbox a{
+  width: 33%;
+  height: 0px;
+  background: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.findbox a button{
+  border: 1px solid #000;
+  width: 100%;
+  height: 30px;
+  border-radius: 10px;
+  background-color: #fff;
+}
+.findbox a:nth-of-type(3) button{
+  color: royalblue;
+}
+
+.findbox a button:hover{
+  border: 2px solid #000;
+}
